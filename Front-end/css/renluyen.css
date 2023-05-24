@@ -1,0 +1,147 @@
+body{
+    width: 90%;
+    margin: auto;
+    background: #E9EBEE;;
+}
+.hitec-title{
+    padding-top: 5px;
+}
+.title{
+    font-size: 18px;
+}
+.title-content {
+    border-bottom: 1px solid #a4a4a4;
+    font-size: 16px;
+}
+.container-fluid{
+    font-size: 12px;
+}
+.container-fluid .nav{
+    background-color: #003C6C;
+    height: 50px;
+    color: white;
+}
+.hitec-logo{
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding: 0px;
+    padding-right: 20px;
+    height: 80%;
+}
+.hitec-logo:hover{
+    cursor: pointer;
+}
+.hitec-logo img{
+    width: 112px;
+    height: 33px;
+    margin-top: 3px;
+    margin-left: 3px;
+    
+}
+.row a{
+    width: 100%;
+    text-align: right;
+}
+.row a b{
+    padding-right: 10px;
+}
+.nav-list{
+    padding-left: 5px;
+    padding-top: 10px;
+    height: 100%;
+}
+.nav-list ul{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: flex;
+}
+.nav-list ul li {
+    padding-top:15px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    
+    border-right: 1px solid #fff;
+}
+.nav-list ul li:hover{
+    cursor: pointer;
+    background-color: #b3afaf;
+}
+/*content-right*/
+.content{
+    min-height: 600px;
+    background-color: white;
+}
+
+.content-title{
+    border-bottom: 1px solid #a4a4a4;
+    font-size: 14px;
+    color: #004275;
+}
+.content-title h2{
+    
+    
+    padding-bottom: 3px;
+}
+.info-student-evaluate{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+/*end-content-right*/
+/*-------footer--------*/
+.footer{
+    margin-top: 5px;
+    padding-top: 20px;
+    background: #003056;
+    color: #fff;
+    font-size: 12px;
+}
+button{
+    cursor: pointer;
+}
+.no-poiter{
+    cursor: not-allowed;
+}
+
+
+/*------end-footer------*/
+@media only screen and (max-width: 726px) {
+    body{
+        width: 100%;
+    }
+    .hitec-logo{
+        display: none;
+    }
+    .table-responsive-mobile{
+        height: 550px;
+       
+    }
+    .title{
+        font-size: 16px;
+    }
+    .title-content{
+        border-bottom: 1px solid #a4a4a4;
+        font-size: 14px;
+    }
+    .boder-top-mobile{
+        border-top: 1px solid #a4a4a4;
+    }
+    .boder-bottom-mobile{
+        border-bottom: 1px solid #a4a4a4;
+    }
+    .info-student-evaluate{
+        display: grid;
+        grid-template-columns: auto auto;
+       
+    }
+    input{
+        width: 30px;
+    }
+    .mr-top-mobile{
+        margin-top: 5px;
+    }
+  }
